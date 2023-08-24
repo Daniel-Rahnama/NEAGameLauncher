@@ -8,13 +8,13 @@ namespace GameLauncher
 {
     public class LeaderboardPlayer
     {
-        public int Time1;
-        public int Time2;
-        public int Time3;
+        public int time1;
+        public int time2;
+        public int time3;
     }
 
     public class LeaderboardData
     {
-        public Dictionary<string, LeaderboardPlayer> Leaderboard;
+        public Dictionary<string, LeaderboardPlayer> leaderboard;
     }
 }
