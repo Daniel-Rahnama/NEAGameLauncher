@@ -20,6 +20,11 @@ namespace GameLauncher
     {
         public string settingsfile;
         public string username;
-        public string spritefile;
+        public string playerspritefile;
+        public string mobspritefile;
+        public string missionfile;
+        public int difficultylevel;
+        public string playerstatfile;
+        public string mobstatfile;
     }
 }
